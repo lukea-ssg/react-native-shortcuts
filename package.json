@@ -1,0 +1,18 @@
+{
+  "name": "react-dev-shake",
+  "version": "1.0.0",
+  "description": "Simulate shake on connected adb device",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Aitkins",
+  "license": "ISC",
+  "bin": {
+    "react-dev-shake": "./index.js",
+    "rns": "./index.js",
+    "adbr": "./adb-reverse.js",
+    "rnra": "./react-native-run-android.js",
+    "sios": "./sios.js"
+  }
+}
